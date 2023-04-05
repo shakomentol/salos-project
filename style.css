@@ -9,24 +9,13 @@
 }
 header {
     width: 100%;
-    /* background-color: red; */
-
     z-index: 5;
 }
 .container {
     max-width: 1440px;
     width: 100%;
-    height: 1024px;
-    /* background-color: blueviolet; */
-    /* background-color: #ffffff;
-background-image: linear-gradient(62deg, #ffffff 12%, #8ed9fc 83%, #ffffff 90%); */
-/* background-color: #ffffff;
-background-image: linear-gradient(62deg, #ffffff 3%, #8ed3fc 40%, #ffffff 99%); */
 background-color: #ffffff;
 background-image: linear-gradient(62deg, #ffffff 6%, #8ed3fc 51%);
-
-
-
 }
 .title {
     padding-left: 60px;
@@ -52,15 +41,16 @@ ul li {
     padding-top: 20px;
 } 
 .start-free {
-    width: 145px;
+    width: 135px;
     height: 48px;
     border-radius: 25px;
+    border: none;
 }
 .button-login {
     width: 500px;
-    margin-left: 200px;
+    margin-left: 188px;
     justify-content: flex-end;
-
+    z-index: 3;
 }
 .login-wrapper li {
     margin-top: 10px;
@@ -104,7 +94,6 @@ ul li {
     color: #000000;
     background-color: #abe9cd;
     background-image: linear-gradient(315deg, #8ed3fc 51%);
-    
 }
 .big-text {
     width: 490px;
@@ -134,7 +123,6 @@ ul li {
 .email-wrapper  {
     width: 523px;
     height: 77px;
-    /* background-color: green; */
     margin-left: 60px;
     margin-top: 50px;
     position: relative;
@@ -165,7 +153,6 @@ ul li {
 .try-shopify {
     width: 523px;
     height: 36px;
-    /* background-color: chocolate; */
     margin-left: 60px;
     margin-top: 25px;
 }
@@ -174,5 +161,40 @@ ul li {
     font-size: 16px;
     line-height: 18px;
 }
-    
-
+.second-side {
+    position: relative;
+}
+.total-picture {
+    position: absolute;
+    margin-left: 130px;
+    margin-top: -60px;
+}
+.total2 {
+    margin-left: 20px;
+}
+.object-fit {
+    object-fit: cover;
+}
+.plant-block {
+    margin-top: 180px;
+    margin-left: 130px;
+}
+.block {
+    margin-top: 120px;
+    margin-left: 20px;
+}
+.orders-sales {
+    margin-left: 130px;
+    margin-top: 20px;
+}
+.sales {
+    margin-left: 20px;
+    margin-top: -110px;
+}
+.work-woman {
+    margin-left: 130px;
+}
+.woman {
+    margin-left: 20px;
+    margin-top: 20px;
+}
