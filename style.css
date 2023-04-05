@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.flex {
+    display: flex;
+}
+header {
+    width: 100%;
+    /* background-color: red; */
+
+    z-index: 5;
+}
+.container {
+    max-width: 1440px;
+    width: 100%;
+    height: 1024px;
+    /* background-color: blueviolet; */
+    /* background-color: #ffffff;
+background-image: linear-gradient(62deg, #ffffff 12%, #8ed9fc 83%, #ffffff 90%); */
+/* background-color: #ffffff;
+background-image: linear-gradient(62deg, #ffffff 3%, #8ed3fc 40%, #ffffff 99%); */
+background-color: #ffffff;
+background-image: linear-gradient(62deg, #ffffff 6%, #8ed3fc 51%);
+
+
+
+}
+.title {
+    padding-left: 60px;
+    padding-top: 20px;
+}
+.title-text {
+    margin-left: 10px;
+}
+.title-text h2 {
+    font-family: salo;
+    letter-spacing: 1px;
+}
+ul {
+    display: flex;
+}
+ul li {
+    padding-left: 35px;
+    padding-top: 10px;
+    font-size: 16px;
+}
+.list-button-container{
+    padding-left: 40px;
+    padding-top: 20px;
+} 
+.start-free {
+    width: 145px;
+    height: 48px;
+    border-radius: 25px;
+}
+.button-login {
+    width: 500px;
+    margin-left: 200px;
+    justify-content: flex-end;
+
+}
+.login-wrapper li {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 18px;
+    color: #000000;
+}
+.button-wrapper {
+    margin-left: 50px;
+}
+.button-wrapper button {
+    color: white;
+    background-color: black;
+    font-size: 16px;
+    line-height: 18px;
+    margin-top: -5px;
+}
+.absolute-text {
+    position: relative;
+}
+.absolute-text p {
+    position: absolute;
+    width: 50px;
+    font-size: 50px;
+    margin-left: 357px;
+    margin-top: -80px;
+    color: rgba(0, 0, 0, 0.368);
+}
+.shopify-overview {
+    padding-left: 60px;
+    padding-top: 80px;
+    width: 334px;
+    height: 54px;
+}
+.shopify-overview button {
+    width: 334px;
+    height: 54px;
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    font-size: 18px;
+    color: #000000;
+    background-color: #abe9cd;
+    background-image: linear-gradient(315deg, #8ed3fc 51%);
+    
+}
+.big-text {
+    width: 490px;
+    height: 340px;
+    /* background-color: red; */
+    margin-top: 100px;
+    margin-left: 60px;
+}
+.big-text p {
+    font-size: 96px;
+    line-height: 110px;
+    color: #000000;
+    font-family: salome;
+}
+.build-busines  {
+    width: 477px;
+    height: 54px;
+    /* background-color: yellow; */
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.build-busines p {
+    font-size: 22px;
+    line-height: 25px;
+    color: #000000;
+}
+.email-wrapper  {
+    width: 523px;
+    height: 77px;
+    /* background-color: green; */
+    margin-left: 60px;
+    margin-top: 50px;
+    position: relative;
+}
+.pherent-button {
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+    color:#33363FA1;
+    text-align:unset;
+    border-radius: 50px;
+    border: 1px solid rgba(51, 54, 63, 0.37);;
+}
+.pherent-button p {
+    margin-left: 20px;
+}
+.button-icon {
+    width: 145px;
+    height: 58px;
+    position: absolute;
+    margin-left: -155px;
+    margin-top: 10px;
+    border-radius: 30px;
+    background-color: #000000;
+    color: white;
+    font-size: 16px;
+}
+.try-shopify {
+    width: 523px;
+    height: 36px;
+    /* background-color: chocolate; */
+    margin-left: 60px;
+    margin-top: 25px;
+}
+.try-shopify p {
+    color: #000000;
+    font-size: 16px;
+    line-height: 18px;
+}
+    
+
