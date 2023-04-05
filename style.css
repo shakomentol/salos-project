@@ -9,7 +9,8 @@
 }
 header {
     width: 100%;
-    z-index: 5;
+    z-index: 10;
+    background-color: rgba(255, 255, 255, 0.87);
 }
 .container {
     max-width: 1440px;
@@ -33,7 +34,7 @@ ul {
     display: flex;
 }
 ul li {
-    padding-left: 35px;
+    padding-left: 30px;
     padding-top: 10px;
     font-size: 16px;
 }
@@ -49,7 +50,7 @@ ul li {
 }
 .button-login {
     width: 500px;
-    margin-left: 188px;
+    margin-left: 165px;
     justify-content: flex-end;
     z-index: 3;
 }
@@ -68,18 +69,19 @@ ul li {
     font-size: 16px;
     line-height: 18px;
     margin-top: -5px;
+
 }
 .absolute-text {
     position: relative;
 }
-.absolute-text p {
+/* .absolute-text p {
     position: absolute;
     width: 50px;
     font-size: 50px;
-    margin-left: 357px;
+    margin-left: 370px;
     margin-top: -80px;
     color: rgba(0, 0, 0, 0.368);
-}
+} */
 .shopify-overview {
     padding-left: 60px;
     padding-top: 80px;
