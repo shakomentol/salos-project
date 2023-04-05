@@ -149,6 +149,7 @@ ul li {
     background-color: #000000;
     color: white;
     font-size: 16px;
+    border: none;
 }
 .try-shopify {
     width: 523px;
