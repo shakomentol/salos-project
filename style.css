@@ -89,7 +89,7 @@ ul li {
 }
 .shopify-overview {
     padding-left: 60px;
-    padding-top: 80px;
+    padding-top: 130px;
     width: 334px;
     height: 54px;
 }
@@ -107,7 +107,7 @@ ul li {
     width: 490px;
     height: 340px;
     /* background-color: red; */
-    margin-top: 100px;
+    margin-top: 150px;
     margin-left: 60px;
 }
 .big-text p {
@@ -115,6 +115,7 @@ ul li {
     line-height: 110px;
     color: #000000;
     font-family: salome;
+    
 }
 .build-busines  {
     width: 477px;
@@ -163,7 +164,7 @@ ul li {
     width: 523px;
     height: 36px;
     margin-left: 60px;
-    margin-top: 25px;
+    margin-top: 50px;
 }
 .try-shopify p {
     color: #000000;
@@ -191,7 +192,7 @@ ul li {
     margin-left: 130px;
 }
 .block {
-    margin-top: 120px;
+    margin-top: 115px;
     margin-left: 20px;
 }
 .orders-sales {
@@ -200,7 +201,7 @@ ul li {
 }
 .sales {
     margin-left: 20px;
-    margin-top: -110px;
+    margin-top: -115px;
 }
 .work-woman {
     margin-left: 130px;
