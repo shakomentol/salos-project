@@ -14,7 +14,7 @@ header {
     /* filter: blur(10px); */
 
     position: fixed;
-    /* opacity: 0.5; */
+    opacity: 1;
 
 }
 .container {
@@ -101,7 +101,7 @@ ul li {
     font-size: 18px;
     color: #000000;
     background-color: #abe9cd;
-    background-image: linear-gradient(315deg, #8ed3fc 51%);
+    background-image: linear-gradient(62deg, #8ed3fc 51%);;
 }
 .big-text {
     width: 490px;
@@ -173,6 +173,7 @@ ul li {
 .second-side {
     position: relative;
     padding-left: 10%;
+    margin-top: 50px;
 }
 .total-picture {
     position: absolute;
