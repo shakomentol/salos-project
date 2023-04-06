@@ -11,6 +11,7 @@ header {
     width: 100%;
     z-index: 10;
     background-color: rgba(255, 255, 255, 0.87);
+    
 }
 .container {
     max-width: 1440px;
@@ -50,7 +51,7 @@ ul li {
 }
 .button-login {
     width: 500px;
-    margin-left: 165px;
+    margin-left: 310px;
     justify-content: flex-end;
     z-index: 3;
 }
@@ -74,14 +75,14 @@ ul li {
 .absolute-text {
     position: relative;
 }
-/* .absolute-text p {
+.absolute-text p {
     position: absolute;
     width: 50px;
     font-size: 50px;
     margin-left: 370px;
     margin-top: -80px;
     color: rgba(0, 0, 0, 0.368);
-} */
+}
 .shopify-overview {
     padding-left: 60px;
     padding-top: 80px;
@@ -167,6 +168,7 @@ ul li {
 }
 .second-side {
     position: relative;
+    padding-left: 10%;
 }
 .total-picture {
     position: absolute;
@@ -201,4 +203,7 @@ ul li {
 .woman {
     margin-left: 20px;
     margin-top: 20px;
+}
+.index {
+    z-index: 1;
 }
