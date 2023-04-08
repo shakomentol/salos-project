@@ -6,3 +6,11 @@
     font-family: salome;
     src: url(fonts/Manrope-VariableFont_wght.ttf);
 }
+@font-face {
+    font-family: sali;
+    src: url(fonts/SecularOne-Regular.ttf);
+}
+@font-face {
+    font-family: gara;
+    src: url(fonts/Courgette-Regular.ttf);
+}
